@@ -20,7 +20,7 @@
 
 				for (let i = 0; i < 10; i++) {
 					if (data[i].genre == gen) {
-						s += data[i].name + "\nArtist: " + data[i].artist + "\nGenre: " + data[i].genre + "\nRealeased " + data[i].release + "\n";
+						s += "<br>" + data[i].name + "<br>Artist: " + data[i].artist + "<br>Genre: " + data[i].genre + "<br>Realeased " + data[i].release + "<br>";
 					}
 				}
 				document.getElementById('output').innerHTML = s;
@@ -36,7 +36,7 @@
 				<option >Disco</option>
 				<option >Alternative/Indie</option>
 			</select>
-			<button value="submit" onclick="filter()">Filter</button>
+			<button type="button" onclick="filter()">Filter</button>
 		</form>
 		<div id="output">
 			Select Genre Above to display given songs in genre.
