@@ -1,0 +1,62 @@
+set= [
+    {
+      "name": "September",
+      "artist": "Earth, Wind &amp; Fire",
+      "genre": "Disco",
+      "release": "1987"
+    },
+    {
+      "name": "Come on Eileen",
+      "artist": "Dexys Midnight Runners",
+      "genre": "Pop",
+      "release": "1982"
+    },
+    {
+      "name": "Shut Up and Dance",
+      "artist": "Walk The Moon",
+      "genre": "Alternative/Indie",
+      "release": "2014"
+    },
+    {
+      "name": "Bohemian Rhapsody",
+      "artist": "Queen",
+      "genre": "Rock",
+      "release": "1975"
+    },
+    {
+      "name": "Dancing Queen",
+      "artist": "ABBA",
+      "genre": "Pop",
+      "release": "1976"
+    },
+    {
+      "name": "Don't Stop Believin",
+      "artist": "Journey",
+      "genre": "Rock",
+      "release": "1981"
+    },
+    {
+      "name": "Wannabe",
+      "artist": "SPice Girls",
+      "genre": "Pop",
+      "release": "1996"
+    },
+    {
+      "name": "Sweet Caroline",
+      "artist": "Neil Diamond",
+      "genre": "Pop",
+      "release": "1969"
+    },
+    {
+      "name": "Since U Been Gone",
+      "artist": "Kelly Clarkson",
+      "genre": "Pop",
+      "release": "2004"
+    },
+    {
+      "name": "Build Me Up Buttercup",
+      "artist": "The Foundations",
+      "genre": "Pop",
+      "release": "1968"
+    }
+  ]

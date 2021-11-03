@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<script type="text/javascript" src="practice.json"></script>
+		<script type="text/javascript">
+
+			function filter() {
+				var data = JSON.parse(JSON.stringify(set));
+				var s = "";
+				var val = document.getElementById('mySelect').selectedIndex;
+				var gen;
+				if (val == 0) gen = "Pop";
+				if (val == 1) gen = "Rock";
+				if (val == 2) gen = "Disco";
+				if (val == 3) gen = "Alternative/Indie";
+
+				for (let i = 0; i < 10; i++) {
+					if (data[i].genre == gen) {
+						s += data[i].name + "\nArtist: " + data[i].artist + "\nGenre: " + data[i].genre + "\nRealeased " + data[i].release + "\n";
+					}
+				}
+				document.getElementById('output').innerHTML = s;
+			}
+		</script>
+	</head>
+	<body>
+		<h2>Set List</h2>
+		<form onsubmit="filter()">
+			<select id="mySelect">
+				<option >Pop</option>
+				<option >Rock</option>
+				<option >Disco</option>
+				<option >Alternative/Indie</option>
+			</select>
+			<button value="submit">Filter</button>
+		</form>
+		<div id="output">
+			Select Genre Above to display given songs in genre.
+		</div>
+	</body>
+</html>
