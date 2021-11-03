@@ -1,6 +1,10 @@
 <!DOCTYPE html> 
 <html>
 	<head>
+		<style type="text/css">
+			body {background-color: #E7A5C2; font-family: "georgia";}
+			h2 {text-align: center;}
+		</style>
 		<script type="text/javascript" src="practice.json"></script>
 		<script type="text/javascript">
 
@@ -25,14 +29,14 @@
 	</head>
 	<body>
 		<h2>Set List</h2>
-		<form onsubmit="filter()">
+		<form>
 			<select id="mySelect">
 				<option >Pop</option>
 				<option >Rock</option>
 				<option >Disco</option>
 				<option >Alternative/Indie</option>
 			</select>
-			<button value="submit">Filter</button>
+			<button value="submit" onclick="filter()">Filter</button>
 		</form>
 		<div id="output">
 			Select Genre Above to display given songs in genre.
